@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		844BE3D21EED69D400B4D221 /* FeedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BE3D11EED69D400B4D221 /* FeedManager.swift */; };
 		84804D681EE1DDAD00A50A18 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84804D671EE1DDAD00A50A18 /* AppDelegate.swift */; };
-		84804D6A1EE1DDAD00A50A18 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84804D691EE1DDAD00A50A18 /* ViewController.swift */; };
+		84804D6A1EE1DDAD00A50A18 /* DetailedStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84804D691EE1DDAD00A50A18 /* DetailedStoryViewController.swift */; };
 		84804D6D1EE1DDAD00A50A18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84804D6B1EE1DDAD00A50A18 /* Main.storyboard */; };
-		84804D701EE1DDAD00A50A18 /* RssFlux.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84804D6E1EE1DDAD00A50A18 /* RssFlux.xcdatamodeld */; };
 		84804D721EE1DDAD00A50A18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84804D711EE1DDAD00A50A18 /* Assets.xcassets */; };
 		84804D751EE1DDAD00A50A18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84804D731EE1DDAD00A50A18 /* LaunchScreen.storyboard */; };
 		84804D801EE1DDAD00A50A18 /* RssFluxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84804D7F1EE1DDAD00A50A18 /* RssFluxTests.swift */; };
 		84804D8B1EE1DDAD00A50A18 /* RssFluxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84804D8A1EE1DDAD00A50A18 /* RssFluxUITests.swift */; };
+		84804D991EE4BA8700A50A18 /* Configurations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84804D981EE4BA8700A50A18 /* Configurations.swift */; };
+		84804D9F1EE4BB5E00A50A18 /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 84804D9E1EE4BB5E00A50A18 /* README.rtf */; };
+		84804DA11EE4C02800A50A18 /* StoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84804DA01EE4C02800A50A18 /* StoryTableViewCell.swift */; };
+		84804DA51EE4C32C00A50A18 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84804DA41EE4C32C00A50A18 /* Story.swift */; };
+		84804E1D1EE7511A00A50A18 /* StoryFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84804E1C1EE7511A00A50A18 /* StoryFeedViewController.swift */; };
+		84804E281EEC4AD900A50A18 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84804E271EEC4AD900A50A18 /* DateFormatter.swift */; };
+		84804E2F1EECABF600A50A18 /* InternetChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84804E2E1EECABF600A50A18 /* InternetChecker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +42,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		844BE3D11EED69D400B4D221 /* FeedManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedManager.swift; sourceTree = "<group>"; };
 		84804D641EE1DDAD00A50A18 /* RssFlux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RssFlux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84804D671EE1DDAD00A50A18 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84804D691EE1DDAD00A50A18 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84804D691EE1DDAD00A50A18 /* DetailedStoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedStoryViewController.swift; sourceTree = "<group>"; };
 		84804D6C1EE1DDAD00A50A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84804D6F1EE1DDAD00A50A18 /* RssFlux.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RssFlux.xcdatamodel; sourceTree = "<group>"; };
 		84804D711EE1DDAD00A50A18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84804D741EE1DDAD00A50A18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84804D761EE1DDAD00A50A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +56,15 @@
 		84804D861EE1DDAD00A50A18 /* RssFluxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RssFluxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84804D8A1EE1DDAD00A50A18 /* RssFluxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RssFluxUITests.swift; sourceTree = "<group>"; };
 		84804D8C1EE1DDAD00A50A18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84804D981EE4BA8700A50A18 /* Configurations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Configurations.swift; sourceTree = "<group>"; };
+		84804D9E1EE4BB5E00A50A18 /* README.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
+		84804DA01EE4C02800A50A18 /* StoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryTableViewCell.swift; sourceTree = "<group>"; };
+		84804DA41EE4C32C00A50A18 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		84804DB31EE5E99600A50A18 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		84804E1C1EE7511A00A50A18 /* StoryFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryFeedViewController.swift; sourceTree = "<group>"; };
+		84804E241EE755B500A50A18 /* RssFlux-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RssFlux-Bridging-Header.h"; sourceTree = "<group>"; };
+		84804E271EEC4AD900A50A18 /* DateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		84804E2E1EECABF600A50A18 /* InternetChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetChecker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		844BE3D01EED69C300B4D221 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				844BE3D11EED69D400B4D221 /* FeedManager.swift */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
 		84804D5B1EE1DDAD00A50A18 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +107,7 @@
 				84804D7E1EE1DDAD00A50A18 /* RssFluxTests */,
 				84804D891EE1DDAD00A50A18 /* RssFluxUITests */,
 				84804D651EE1DDAD00A50A18 /* Products */,
+				84804DB21EE5E99600A50A18 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +124,18 @@
 		84804D661EE1DDAD00A50A18 /* RssFlux */ = {
 			isa = PBXGroup;
 			children = (
+				844BE3D01EED69C300B4D221 /* Client */,
+				84804E261EEC4AB600A50A18 /* Libs */,
+				84804E241EE755B500A50A18 /* RssFlux-Bridging-Header.h */,
+				84804DA31EE4C31200A50A18 /* Model */,
+				84804DA21EE4C2F600A50A18 /* ViewControllers */,
 				84804D671EE1DDAD00A50A18 /* AppDelegate.swift */,
-				84804D691EE1DDAD00A50A18 /* ViewController.swift */,
+				84804D981EE4BA8700A50A18 /* Configurations.swift */,
 				84804D6B1EE1DDAD00A50A18 /* Main.storyboard */,
 				84804D711EE1DDAD00A50A18 /* Assets.xcassets */,
 				84804D731EE1DDAD00A50A18 /* LaunchScreen.storyboard */,
 				84804D761EE1DDAD00A50A18 /* Info.plist */,
-				84804D6E1EE1DDAD00A50A18 /* RssFlux.xcdatamodeld */,
+				84804D9E1EE4BB5E00A50A18 /* README.rtf */,
 			);
 			path = RssFlux;
 			sourceTree = "<group>";
@@ -126,6 +156,41 @@
 				84804D8C1EE1DDAD00A50A18 /* Info.plist */,
 			);
 			path = RssFluxUITests;
+			sourceTree = "<group>";
+		};
+		84804DA21EE4C2F600A50A18 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				84804D691EE1DDAD00A50A18 /* DetailedStoryViewController.swift */,
+				84804DA01EE4C02800A50A18 /* StoryTableViewCell.swift */,
+				84804E1C1EE7511A00A50A18 /* StoryFeedViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		84804DA31EE4C31200A50A18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84804DA41EE4C32C00A50A18 /* Story.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		84804DB21EE5E99600A50A18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84804DB31EE5E99600A50A18 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84804E261EEC4AB600A50A18 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				84804E271EEC4AD900A50A18 /* DateFormatter.swift */,
+				84804E2E1EECABF600A50A18 /* InternetChecker.swift */,
+			);
+			name = Libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +262,7 @@
 					84804D631EE1DDAD00A50A18 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = JEJP9GR2UB;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					84804D7A1EE1DDAD00A50A18 = {
@@ -220,6 +286,24 @@
 			knownRegions = (
 				en,
 				Base,
+				cs,
+				de,
+				es,
+				eu,
+				fi,
+				fr,
+				it,
+				ja,
+				ko,
+				nl,
+				no,
+				pl,
+				pt,
+				ru,
+				sk,
+				sv,
+				vi,
+				zh_CN,
 			);
 			mainGroup = 84804D5B1EE1DDAD00A50A18;
 			productRefGroup = 84804D651EE1DDAD00A50A18 /* Products */;
@@ -240,6 +324,7 @@
 			files = (
 				84804D751EE1DDAD00A50A18 /* LaunchScreen.storyboard in Resources */,
 				84804D721EE1DDAD00A50A18 /* Assets.xcassets in Resources */,
+				84804D9F1EE4BB5E00A50A18 /* README.rtf in Resources */,
 				84804D6D1EE1DDAD00A50A18 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,9 +350,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84804D701EE1DDAD00A50A18 /* RssFlux.xcdatamodeld in Sources */,
-				84804D6A1EE1DDAD00A50A18 /* ViewController.swift in Sources */,
+				84804D6A1EE1DDAD00A50A18 /* DetailedStoryViewController.swift in Sources */,
+				84804D991EE4BA8700A50A18 /* Configurations.swift in Sources */,
 				84804D681EE1DDAD00A50A18 /* AppDelegate.swift in Sources */,
+				84804E281EEC4AD900A50A18 /* DateFormatter.swift in Sources */,
+				84804DA11EE4C02800A50A18 /* StoryTableViewCell.swift in Sources */,
+				84804E1D1EE7511A00A50A18 /* StoryFeedViewController.swift in Sources */,
+				844BE3D21EED69D400B4D221 /* FeedManager.swift in Sources */,
+				84804E2F1EECABF600A50A18 /* InternetChecker.swift in Sources */,
+				84804DA51EE4C32C00A50A18 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,11 +508,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = JEJP9GR2UB;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = RssFlux/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lilian.RssFlux;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RssFlux/RssFlux-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -430,11 +525,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = JEJP9GR2UB;
+				ENABLE_BITCODE = YES;
 				INFOPLIST_FILE = RssFlux/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Lilian.RssFlux;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RssFlux/RssFlux-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -516,6 +614,7 @@
 				84804D911EE1DDAD00A50A18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84804D921EE1DDAD00A50A18 /* Build configuration list for PBXNativeTarget "RssFluxTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +623,7 @@
 				84804D941EE1DDAD00A50A18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84804D951EE1DDAD00A50A18 /* Build configuration list for PBXNativeTarget "RssFluxUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,21 +632,9 @@
 				84804D971EE1DDAD00A50A18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		84804D6E1EE1DDAD00A50A18 /* RssFlux.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				84804D6F1EE1DDAD00A50A18 /* RssFlux.xcdatamodel */,
-			);
-			currentVersion = 84804D6F1EE1DDAD00A50A18 /* RssFlux.xcdatamodel */;
-			path = RssFlux.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 84804D5C1EE1DDAD00A50A18 /* Project object */;
 }
