@@ -124,11 +124,11 @@
 			children = (
 				844BE3D01EED69C300B4D221 /* Client */,
 				84804E261EEC4AB600A50A18 /* Libs */,
-				84804E241EE755B500A50A18 /* RssFlux-Bridging-Header.h */,
 				84804DA31EE4C31200A50A18 /* Model */,
 				84804DA21EE4C2F600A50A18 /* ViewControllers */,
 				84804D671EE1DDAD00A50A18 /* AppDelegate.swift */,
 				84804D981EE4BA8700A50A18 /* Configurations.swift */,
+				84804E241EE755B500A50A18 /* RssFlux-Bridging-Header.h */,
 				84804D6B1EE1DDAD00A50A18 /* Main.storyboard */,
 				84804D711EE1DDAD00A50A18 /* Assets.xcassets */,
 				84804D731EE1DDAD00A50A18 /* LaunchScreen.storyboard */,
